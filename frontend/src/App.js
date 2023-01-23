@@ -20,12 +20,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Users list is :</h1>
+        <h1>Users list (feature branch) :</h1>
         {users.map(user => <div>{user.username}</div>)}
-        {/* {users.map((user) => <p>
-          {user} {user.email}
-        </p>
-        )} */}
+
         <a
           className="App-link"
           href="https://reactjs.org"
